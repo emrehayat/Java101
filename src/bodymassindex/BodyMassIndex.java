@@ -1,4 +1,4 @@
-package bodyMassIndex;
+package bodymassindex;
 
 import java.util.Scanner;
 

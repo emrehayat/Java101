@@ -1,4 +1,4 @@
-package notOrtalamasi;
+package notortalamasi;
 
 import java.util.Scanner;
 
