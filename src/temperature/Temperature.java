@@ -2,7 +2,7 @@ package temperature;
 
 import java.util.Scanner;
 
-public class temperature {
+public class Temperature {
     public static void main(String[] args) {
         int temp;
         System.out.print("Sıcaklığı giriniz: ");
