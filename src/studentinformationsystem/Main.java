@@ -14,16 +14,19 @@ public class Main {
         physics.addTeacher(t2);
         chemistry.addTeacher(t3);
 
-        Student s1 = new Student("Kerem Ali", 4, "117406289", math, physics, chemistry);
+        Student s1 = new Student("Kerem Ali", 4, "117406289", math, physics, chemistry, 25, 75);
         s1.addBulkExamNote(50,35,62);
+        s1.addOralNote(70,60,80);
         s1.isPass();
 
-        Student s2 = new Student("Zeynep", 2, "218908734", math, physics, chemistry);
+        Student s2 = new Student("Zeynep", 2, "218908734", math, physics, chemistry, 40, 60);
         s2.addBulkExamNote(40,86,74);
+        s2.addOralNote(90, 85, 75);
         s2.isPass();
 
-        Student s3 = new Student("Efe", 3, "240500732", math, physics, chemistry);
+        Student s3 = new Student("Efe", 3, "240500732", math, physics, chemistry, 30, 70);
         s3.addBulkExamNote(88,75,94);
+        s3.addOralNote(100, 90, 95);
         s3.isPass();
     }
 }

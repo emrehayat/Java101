@@ -6,12 +6,14 @@ public class Course {
     String code;
     String prefix;
     int note;
+    int oralNote;
 
     Course(String name, String code, String prefix) {
         this.name = name;
         this.code = code;
         this.prefix = prefix;
         this.note = 0;
+        this.oralNote = 0;
     }
 
     void addTeacher(Teacher t) {
