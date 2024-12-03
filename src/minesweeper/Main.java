@@ -20,5 +20,6 @@ public class Main {
         } while (row < 2 || column < 2);
 
         MineSweeper game = new MineSweeper(row, column);
+        game.play();
     }
 }
